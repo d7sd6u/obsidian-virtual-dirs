@@ -1,0 +1,11 @@
+{
+	"id": "virtual-dirs",
+	"name": "Virtual Dirs",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Add virtual dir indexes to quick switcher and graph viewer",
+	"author": "d7sd6u",
+	"authorUrl": "https://github.com/d7sd6u",
+	"fundingUrl": "https://ko-fi.com/d7sd6u",
+	"isDesktopOnly": false
+}
