@@ -6,21 +6,22 @@ Use with [folders-graph](https://github.com/d7sd6u/obsidian-folders-graph), [hid
 
 ## How it looks like
 
+
 ### Search
 
-![](./docs/search.mp4)
+https://github.com/user-attachments/assets/4cdffd14-a379-41d6-b5d1-d32d6a7859da
 
 ### Embed
 
-![](./docs/embed.mp4)
+https://github.com/user-attachments/assets/f4b7b4b4-961b-4d65-9b45-7e7bafdd1586
 
 ### Preview / Links
 
-![](./docs/preview.mp4)
+https://github.com/user-attachments/assets/d66af9c6-27a1-4c1b-9ebe-82a231fa5e7c
 
 ### Custom template
 
-![](./docs/template.mp4)
+https://github.com/user-attachments/assets/b921ba38-c735-4008-a928-7cbc26959e37
 
 ## Other plugins
 
