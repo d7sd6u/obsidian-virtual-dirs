@@ -150,10 +150,7 @@ export default class Main extends PluginWithSettings(DEFAULT_SETTINGS) {
 				const parentPath =
 					file.split("/").slice(0, -1).join("/") || "/";
 				const p = this.app.vault.fileMap[parentPath];
-				if (!(p instanceof TFolder))
-					throw new Error(
-						"Malformed input or vault.fileMap! (parentPath is not TFolder)",
-					);
+				if (!(p instanceof TFolder)) return;
 				parent = p;
 			} else {
 				isIndex = isIndexFile(file);
