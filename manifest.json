@@ -1,9 +1,9 @@
 {
 	"id": "virtual-dirs",
-	"name": "Virtual Dirs",
+	"name": "Virtual Folder Indexes",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Add virtual dir indexes to quick switcher and graph viewer",
+	"minAppVersion": "1.8.0",
+	"description": "Add virtual folder indexes (a la folder notes) to quick switcher, file explorer and graph viewer.",
 	"author": "d7sd6u",
 	"authorUrl": "https://github.com/d7sd6u",
 	"fundingUrl": "https://ko-fi.com/d7sd6u",
