@@ -69,10 +69,11 @@ export default class Main extends PluginWithSettings(DEFAULT_SETTINGS) {
 		this.registerPatch(MetadataCache.prototype, {
 			getFirstLinkpathDest(next, plugin) {
 				return function (...args) {
-					return (
-						plugin.virtualFileLinksLookup.get(args[0]) ??
-						next.apply(this, args)
-					);
+					const res = plugin.virtualFileLinksLookup.get(args[0]);
+					if (res && res.path in plugin.app.vault.fileMap) {
+						return res;
+					}
+					return next.apply(this, args);
 				};
 			},
 		});
