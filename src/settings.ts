@@ -29,8 +29,7 @@ export class SettingsTab extends PluginSettingTab {
 					.setPlaceholder(
 						`# {{folderName}}\nThis is {{folderPath}}\nIts children:\n{{folderChildrenList}}`,
 					);
-				textArea.inputEl.style.minWidth = "250px";
-				textArea.inputEl.style.minHeight = "100px";
+				textArea.inputEl.classList.add("small-settings-text-area");
 			});
 	}
 }
