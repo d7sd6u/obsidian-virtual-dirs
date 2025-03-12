@@ -29,7 +29,9 @@ export class SettingsTab extends PluginSettingTab {
 					.setPlaceholder(
 						`# {{folderName}}\nThis is {{folderPath}}\nIts children:\n{{folderChildrenList}}`,
 					);
-				textArea.inputEl.classList.add("small-settings-text-area");
+				textArea.inputEl.classList.add(
+					"virtual-dirs-small-settings-text-area",
+				);
 			});
 	}
 }
