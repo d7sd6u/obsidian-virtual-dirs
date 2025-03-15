@@ -1,11 +1,10 @@
 # Virtual Dirs
 
-Creates virtual read-only files with `.dir` extension that are created for every folder without folder note in your vault. They do not take space on your disk (as they only exist in-memory), but they could be searched, embedded (in notes and in canvases), previewed, linked just like any normal note. You can also use your own markdown template for the contents of these files.
+Creates virtual read-only files with `.dir` extension that are created for every folder without folder note in your vault. They do not take space on your disk (as they only exist in-memory), but they could be searched, embedded (in notes and in Canvases), previewed, linked just like any normal note. You can also use your own markdown template for the contents of these files.
 
 Use with [folders-graph](https://github.com/d7sd6u/obsidian-folders-graph), [hide-index-files](https://github.com/d7sd6u/obsidian-hide-index-files) and [folder-notes](https://github.com/LostPaul/obsidian-folder-notes) for the full experience.
 
 ## How it looks like
-
 
 ### Search
 
